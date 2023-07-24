@@ -19,6 +19,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  plugins: ['react', 'story-prefix-check'],
   rules: {
     'jsx-a11y/media-has-caption': [0],
     'no-new': [0],
@@ -31,6 +32,7 @@ module.exports = {
     'react/jsx-props-no-spreading': [0],
     'object-curly-newline': [0],
     'react/prop-types': [0],
+    'story-prefix-check/check-story-prefix': [1],
     // 0 - off
     // 1- Warn
     // 2- Error

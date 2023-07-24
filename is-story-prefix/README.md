@@ -10,20 +10,20 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-is-story-prefix`:
+Next, install `eslint-plugin-story-prefix-check`:
 
 ```sh
-npm install eslint-plugin-is-story-prefix --save-dev
+npm install eslint-plugin-story-prefix-check --save-dev
 ```
 
 ## Usage
 
-Add `is-story-prefix` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `story-prefix-check` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "is-story-prefix"
+        "story-prefix-check"
     ]
 }
 ```
@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "is-story-prefix/rule-name": 2
+        "story-prefix-check/rule-name": 2
     }
 }
 ```
