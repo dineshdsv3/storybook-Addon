@@ -66,7 +66,7 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-story-prefix-check": "^0.0.7",
+    "eslint-plugin-story-prefix-check": "^0.0.9",
     "prop-types": "^15.8.1",
     "webpack": "^5.75.0"
   }

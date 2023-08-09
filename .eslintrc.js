@@ -32,7 +32,12 @@ module.exports = {
     'react/jsx-props-no-spreading': [0],
     'object-curly-newline': [0],
     'react/prop-types': [0],
-    'story-prefix-check/check-story-prefix': [1],
+    'story-prefix-check/check-story-prefix': [
+      1,
+      {
+        customPrefix: 'USER_',
+      },
+    ],
     // 0 - off
     // 1- Warn
     // 2- Error

@@ -23,7 +23,7 @@ module.exports = {
         const fileName =
           fileNamePath.split('/')[fileNamePath.split('/').length - 1];
         if (
-          !fileName.startsWith('STORY_') &&
+          !fileName.startsWith(context.options[0].customPrefix || 'STORY_') &&
           fileName.endsWith('stories.jsx')
         ) {
           context.report({

@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-story-prefix-check",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A Eslint plugin to check if the story files has the prefix",
   "keywords": [
     "eslint",
